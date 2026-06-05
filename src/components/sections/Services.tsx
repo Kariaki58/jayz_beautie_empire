@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
@@ -37,8 +38,8 @@ export function Services() {
             <span className="text-xs uppercase tracking-[0.4em] text-primary/60 font-medium">Our Expertise</span>
             <h2 className="text-4xl md:text-6xl font-headline text-primary">Luxury Treatments <br /><span className="italic">Designed Around You</span></h2>
           </div>
-          <Button variant="outline" className="rounded-none px-8 uppercase tracking-[0.2em] border-primary text-primary hover:bg-primary hover:text-white h-12">
-            View All Services
+          <Button asChild variant="outline" className="rounded-none px-8 uppercase tracking-[0.2em] border-primary text-primary hover:bg-primary hover:text-white h-12">
+            <Link href="/services">View All Services</Link>
           </Button>
         </div>
 

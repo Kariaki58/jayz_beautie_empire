@@ -9,6 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { InstagramShowcase } from "@/components/sections/InstagramShowcase";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -70,11 +71,11 @@ export default function Home() {
             Whether you&apos;re booking a treatment or shopping for beauty essentials, we&apos;re here to help you look and feel your absolute best. Experience the empire of beauty today.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6 pt-6">
-            <Button size="lg" className="h-16 px-12 rounded-none bg-primary text-white hover:bg-primary/90 uppercase tracking-[0.2em] text-xs">
-              Book Appointment
+            <Button asChild size="lg" className="h-16 px-12 rounded-none bg-primary text-white hover:bg-primary/90 uppercase tracking-[0.2em] text-xs">
+              <Link href="/contact">Book Appointment</Link>
             </Button>
-            <Button variant="outline" size="lg" className="h-16 px-12 rounded-none border-primary text-primary hover:bg-primary hover:text-white uppercase tracking-[0.2em] text-xs">
-              Shop Beauty Products
+            <Button asChild variant="outline" size="lg" className="h-16 px-12 rounded-none border-primary text-primary hover:bg-primary hover:text-white uppercase tracking-[0.2em] text-xs">
+              <Link href="/shop">Shop Beauty Products</Link>
             </Button>
           </div>
         </div>

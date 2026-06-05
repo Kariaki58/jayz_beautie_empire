@@ -87,15 +87,16 @@ export function Navbar() {
             <ShoppingBag className="w-5 h-5" />
           </button>
           
-          <Button 
+          <Button
+            asChild
             className={cn(
               "hidden md:flex rounded-none px-8 uppercase tracking-[0.15em] text-xs h-11",
-              !isScrolled && isHome 
-                ? "bg-white text-primary hover:bg-white/90" 
+              !isScrolled && isHome
+                ? "bg-white text-primary hover:bg-white/90"
                 : "bg-primary text-white hover:bg-primary/90"
             )}
           >
-            Book Appointment
+            <Link href="/contact">Book Appointment</Link>
           </Button>
 
           {/* Mobile Menu Trigger */}
@@ -120,8 +121,8 @@ export function Navbar() {
                     {link.name}
                   </Link>
                 ))}
-                <Button className="rounded-none uppercase tracking-[0.15em] w-full mt-4">
-                  Book Appointment
+                <Button asChild className="rounded-none uppercase tracking-[0.15em] w-full mt-4">
+                  <Link href="/contact">Book Appointment</Link>
                 </Button>
               </div>
             </SheetContent>

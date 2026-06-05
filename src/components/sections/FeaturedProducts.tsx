@@ -2,6 +2,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ShoppingBag, Eye, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -101,8 +102,8 @@ export function FeaturedProducts() {
         </div>
 
         <div className="mt-20 text-center">
-          <Button className="rounded-none px-12 h-14 bg-primary text-white hover:bg-primary/90 uppercase tracking-[0.2em] text-xs">
-            Shop All Collections
+          <Button asChild className="rounded-none px-12 h-14 bg-primary text-white hover:bg-primary/90 uppercase tracking-[0.2em] text-xs">
+            <Link href="/shop">Shop All Collections</Link>
           </Button>
         </div>
       </div>
