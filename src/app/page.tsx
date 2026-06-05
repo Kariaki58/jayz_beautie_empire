@@ -48,9 +48,9 @@ export default function Home() {
               </div>
             </div>
             <div className="relative aspect-[4/5] bg-white/5 overflow-hidden">
-               <img 
-                 src="https://picsum.photos/seed/philosophy/800/1000" 
-                 alt="Luxury Wellness" 
+               <img
+                 src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&q=80"
+                 alt="Luxury Wellness"
                  className="w-full h-full object-cover opacity-80 grayscale-[0.2] hover:grayscale-0 transition-all duration-1000"
                />
                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />

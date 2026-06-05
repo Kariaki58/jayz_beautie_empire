@@ -3,49 +3,49 @@
     {
       "id": "hero-spa",
       "description": "Luxury Spa Woman Treatment",
-      "imageUrl": "https://picsum.photos/seed/spa-hero/1920/1080",
+      "imageUrl": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1920&q=80",
       "imageHint": "luxury spa woman"
     },
     {
       "id": "facial-treatment",
       "description": "Premium Facial Treatment",
-      "imageUrl": "https://picsum.photos/seed/facial/800/1000",
+      "imageUrl": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=80",
       "imageHint": "facial treatment"
     },
     {
       "id": "skincare-products",
       "description": "Luxury Skincare Product Bottles",
-      "imageUrl": "https://picsum.photos/seed/skincare/800/800",
+      "imageUrl": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80",
       "imageHint": "skincare products"
     },
     {
       "id": "body-oil",
       "description": "Premium Body Oil",
-      "imageUrl": "https://picsum.photos/seed/bodyoil/800/800",
+      "imageUrl": "https://images.unsplash.com/photo-1631730359585-38a4935cbec4?auto=format&fit=crop&w=800&q=80",
       "imageHint": "organic beauty"
     },
     {
       "id": "wellness-interior",
       "description": "Luxury Wellness Spa Interior",
-      "imageUrl": "https://picsum.photos/seed/interior/1200/800",
+      "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
       "imageHint": "wellness interior"
     },
     {
       "id": "lifestyle-woman",
       "description": "Elegant Female Lifestyle",
-      "imageUrl": "https://picsum.photos/seed/lifestyle/800/1200",
+      "imageUrl": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80",
       "imageHint": "elegant woman"
     },
     {
       "id": "serum-product",
       "description": "Advanced Serum",
-      "imageUrl": "https://picsum.photos/seed/serum/600/800",
+      "imageUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
       "imageHint": "beauty product"
     },
     {
       "id": "mask-treatment",
       "description": "Clay Mask Application",
-      "imageUrl": "https://picsum.photos/seed/mask/800/1000",
+      "imageUrl": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=80",
       "imageHint": "spa treatment"
     }
   ]
