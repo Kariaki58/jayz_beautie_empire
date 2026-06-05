@@ -2,6 +2,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,10 +13,15 @@ export function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-24 mb-20">
           <div className="space-y-8">
-            <div className="flex flex-col">
-              <span className="font-headline text-2xl tracking-[0.15em]">JAY&apos;Z BEAUTIE</span>
-              <span className="text-[0.6rem] tracking-[0.4em] uppercase opacity-70">Empire.Ng</span>
-            </div>
+            <Link href="/" className="inline-flex" aria-label="Jay'z Beautie Empire — Home">
+              <Image
+                src="/logo.png"
+                alt="Jay'z Beautie Empire"
+                width={105}
+                height={102}
+                className="h-20 w-auto"
+              />
+            </Link>
             <p className="text-sm leading-relaxed opacity-70 max-w-xs">
               A luxury beauty destination offering premium spa treatments, skincare solutions, and products designed to help women embrace their beauty.
             </p>

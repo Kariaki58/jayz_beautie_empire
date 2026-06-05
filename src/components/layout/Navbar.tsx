@@ -3,6 +3,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ShoppingBag, Menu, X, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -42,19 +43,15 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="group flex flex-col items-center">
-          <span className={cn(
-            "font-headline text-2xl tracking-[0.15em] transition-colors duration-300",
-            !isScrolled && isHome ? "text-white" : "text-primary"
-          )}>
-            JAY&apos;Z BEAUTIE
-          </span>
-          <span className={cn(
-            "text-[0.6rem] tracking-[0.4em] uppercase transition-colors duration-300",
-            !isScrolled && isHome ? "text-white/80" : "text-primary/60"
-          )}>
-            Empire.Ng
-          </span>
+        <Link href="/" className="group flex items-center" aria-label="Jay'z Beautie Empire — Home">
+          <Image
+            src={!isScrolled && isHome ? "/logo.png" : "/logo-dark.png"}
+            alt="Jay'z Beautie Empire"
+            width={105}
+            height={102}
+            priority
+            className="h-14 w-auto transition-opacity duration-300"
+          />
         </Link>
 
         {/* Desktop Links */}
